@@ -1,0 +1,75 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "6.2.0",
+    "@sentry/react": "6.12.0",
+    "antd": "4.16.13",
+    "axios": "0.21.4",
+    "core-js": "3.17.3",
+    "craco-antd": "1.19.0",
+    "dotenv": "10.0.0",
+    "echarts": "5.1.1",
+    "echarts-for-react": "3.0.1",
+    "moment": "2.29.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-helmet": "6.1.0",
+    "react-router-dom": "5.3.0",
+    "react-scripts": "4.0.3",
+    "reactour": "1.18.6",
+    "styled-components": "5.3.1",
+    "tabler-icons-react": "1.35.0",
+    "yarn": "1.22.11"
+  },
+  "scripts": {
+    "start": "craco start",
+    "start-dev": "nodemon -w ./antd.customize.less --exec \"craco start\"",
+    "build": "GENERATE_SOURCEMAP=false craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "e2e": "jest"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.12.11",
+    "@types/jest-environment-puppeteer": "4.4.1",
+    "craco-esbuild": "0.3.2",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-prettier": "6.14.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.5",
+    "expect-puppeteer": "4.4.0",
+    "jest-circus": "26.6.3",
+    "lint-staged": "^10.4.2",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.6.2",
+    "pretty-quick": "^3.0.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "git add"
+    ]
+  }
+}

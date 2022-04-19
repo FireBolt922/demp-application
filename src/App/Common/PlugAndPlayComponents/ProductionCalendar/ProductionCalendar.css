@@ -1,0 +1,18 @@
+/* This css is used to hide the month and year section of the calendar as we are not using it */
+/* The blow code will hide the month selector */
+.ant-radio-button-wrapper-checked:not([class*=' ant-radio-button-wrapper-disabled']).ant-radio-button-wrapper:first-child {
+  visibility: hidden;
+}
+/* the below code is hide the year selector */
+.ant-radio-button-wrapper:last-child {
+  visibility: hidden;
+}
+/* this will align the code in proper manner after the above 2 components are hidden */
+.ant-picker-calendar-header {
+  margin-right: -50px;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

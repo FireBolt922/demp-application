@@ -1,0 +1,5 @@
+/* This is done because  TabPane in Tabs (Antd) dose not support styled components*/
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab:not(:last-of-type) {
+  margin: 5px;
+  border-radius: 20px;
+}

@@ -1,0 +1,7 @@
+.ant-collapse > .ant-collapse-item {
+  border-bottom: none;
+}
+
+.ant-collapse-item:last-child > .ant-collapse-content {
+  border-radius: 0 2px 34px 61px;
+}

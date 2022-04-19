@@ -1,0 +1,11 @@
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #031629;
+  font-weight: bold;
+}
+/* This is used to disable the border of the Production Tab */
+.ant-menu-inline .ant-menu-submenu {
+  border: none;
+}
+.ant-menu.ant-menu-sub.ant-menu-inline {
+  background-color: #031629;
+}
